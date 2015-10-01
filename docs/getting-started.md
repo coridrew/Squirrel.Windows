@@ -13,7 +13,13 @@ using (var mgr = new UpdateManager("https://path/to/my/update/folder"))
 }
 ```
 
-* Use NuGet Package Explorer (or any other way) to create a NuGet package for your app. Make sure that package doesn't have any dependencies. Here's a good example package:
+* Use NuGet Package Explorer (or any other way) to create a NuGet package for your app. 
+
+1.  Make sure that package doesn't have any dependencies. 
+
+1. Make sure the nuspec package id has no spaces or dots (.)
+
+Here's a good example package:
 
 ![](http://cl.ly/image/261D2x2X1e3G/content#png) 
 
